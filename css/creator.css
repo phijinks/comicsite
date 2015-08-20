@@ -1,0 +1,72 @@
+* {
+	margin: 0px;
+}
+
+table, tr, td {padding: 0px; margin: 0px;}
+table {width: 100%; height: 100%;}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	cursor: pointer;
+}
+.logo:hover {filter: none; -webkit-filter: none; background-color: #551133;}
+
+.content {
+	position: absolute;
+	margin: 0px 30px 0px 30px;
+	padding: 0px;
+	top: 160px;
+	background-color: #dddddd;
+	overflow: hidden;
+}
+
+.logo, .item, .comiclistinner {
+	background-color: #bbbbbb;
+	color: #bbbbbb;
+}
+
+.comiclist {
+	margin: 10px;
+	padding: 10px;
+	padding-left: 0px;
+	height: 100%;
+}
+.comiclist .comiclistinner {height: 100%; padding: 10px;}
+
+.comic {
+	width: 150px;
+	height: 150px;
+	background-color: #888888;
+	margin-right: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+.comic:hover {border: 10px solid white; margin: -10px; margin-right: 0px; z-index: 10;}
+
+.sidebar {
+	margin-right: 20px;
+	padding: 10px;
+	width: 25%;
+}
+
+.item {
+	height: 50px;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: 0.1s;
+	-moz-transition: 0.1s;
+	-webkit-transition: 0.1s;
+}
+
+.item:hover {
+	margin-left: 50px;
+}

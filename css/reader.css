@@ -1,0 +1,58 @@
+* {
+	margin: 0px;
+}
+
+table, tr, td {padding: 0px; margin: 0px;}
+table {width: 100%; height: 100%;}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	cursor: pointer;
+}
+.logo:hover {filter: none; -webkit-filter: none; background-color: #551133;}
+
+.content {
+	position: absolute;
+	margin: 30px;
+	padding: 10px;
+	top: 130px;
+	background-color: #dddddd;
+}
+
+.logo, .comic {
+	background-color: #bbbbbb;
+	color: #bbbbbb;
+}
+
+.comicinfo {
+	font-size: 2em;
+	font-family: 'Futura', sans-serif;
+	color: #888888;
+	text-transform: uppercase;
+	text-align: right;
+	width: 100%;
+}
+
+.icon {
+	width: 150px;
+	height: 150px;
+}
+
+.comic {
+	width: 100%;
+	height: 800px;
+	margin-top: 10px;
+}
+
+.sidebar {
+	margin-right: 20px;
+	padding: 10px;
+	width: 25%;
+}
